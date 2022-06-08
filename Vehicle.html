@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SPEED-X Cars Sale</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="png/image" href="img/v1.png"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="topbar">
+        <div class="logo">
+        <span><img src="img/v1.png">
+        </span>
+        <h1>SPEED-X</h1>
+        
+        <img src="img/sale.png" width="5px" height="5px">
+        <h3>Cars Sale
+        </h3>
+        <h6><a href="#" onClick="showDialog()" title="Click Button">Sign in</a></h6>
+        </div>
+
+        <div class="toggle">
+            <div class="line-one"></div>
+            <div class="line-two"></div>
+            <div class="line-three"></div>
+        </div>
+    </div>
+    <!-- Topbar end -->
+    <div id="menu_bar">
+        <ul class="nav">
+            <li><a href="Home.html">home</a></li>
+            <li><a href="About.html">about</a></li>
+            <li><a href="Service.html">service</a></li>
+            <li><a href="Showroom.html">showroom</a></li>
+            <li><a href="Vehicle.html">vehicles</a></li>
+            <li><a href="Contact.html">contact</a></li>
+        </ul>
+        <div class="fix"></div>
+    </div>
+    <!-- menu_bar end -->
+<!-- Dialog-box -->
+<div id="overlay" onClick="hideDialog()"></div>
+<div id="dialog">
+<h1>
+  <!-- Contact Me? -->
+  <span onClick="hideDialog()">&times;</span>
+</h1>
+<form>
+  <label for="psw">Email</label>
+  </br>
+  <input type="text">
+  </br>
+  <label for="psw">Password</label>
+  </br>
+  <input type="text">
+  </br>
+  <input type="submit" value="LOGIN">
+</form>
+</div>
+      <!-- MENU END -->
+      <div id="vehicle"><p>&nbsp;</p></div>
+      <div id="vehicle"><p>&nbsp;</p></div>
+    <section id="popular-searches">
+        <h2>Popular Searches</h2>
+        <p>Unsure where to start? Check out some of the most sought-after models on Speed-X!</p>
+        <div class="section-group">
+          <div class="container">
+           <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="image-button">
+                  <div class="img-wrapper">
+                        <img src="img/popular-02.jpg" width="350px">
+                        <div class="img-overlay">
+                            <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                        </div>
+                        </div>
+                        <div class="caption">
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="About.html" target="_blank">Subaru Outback</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="image-button">
+                 <div class="img-wrapper">
+                        <img src="img/popular-01.jpg" width="350px">
+                        <div class="img-overlay">
+                            <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                        </div>
+                        </div>
+                        <div class="caption">
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="About.html" target="_blank">Ford Mustang</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="image-button">
+                  <div class="img-wrapper">
+                        <img src="img/popular-03.jpg" width="350px">
+                        <div class="img-overlay">
+                            <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                        </div>
+                        </div>
+                        <div class="caption">
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="About.html" target="_blank">Toyota Tacoma</a>
+                        </div>
+                </div>
+            </div>
+           </div>
+          </div>
+        </div>
+    </section>
+      <!-- Popular Searches End -->
+      <div id="search-box">
+           <h2>Advanced Search&nbsp;&nbsp;<!-- <a href="#"><img src="img/search.png"></a> --></h2>
+            <p>Check out some of the most sought-after models on Speed-X!</p>
+             <div class="container">
+                <div class="row">
+                  <div class="table-box">
+                    <div class="container">
+                      <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+              <label class="select-new"><h4>New Car</h4></label></br><select class="new-car">
+                            <option>Select</option>
+                            <option>Audi</option>
+                            <option>Aston Martin</option>
+                            <option>Bentley</option>
+                            <option>Bugatti</option>
+                            <option>Chrysler</option>
+                            <option>Chevrolet</option>
+                            <option>Daihatsu</option>
+                            <option>Datsun</option>
+                            <option>Essex</option>
+                            <option>Ferrari</option>
+                            <option>Ford</option>
+                            <option>Isuzu</option>
+                            <option>Lexus</option>
+                          </select>
+                          <p>&nbsp;</p>
+                          <ul><h5>Model</h5>
+                       <li><select class="new">
+                          <option>Select</option>
+                          <option>2019</option>
+                          <option>2018</option>
+                          <option>2017</option>
+                          <option>2016</option>
+                          <option>2015</option>
+                          <option>2014</option>
+                          </select></li>
+                          <h5>Body Type</h5>
+                      <li><select class="new">
+                          <option>Select</option>
+                          <option>Sedon</option>
+                          <option>Wagon</option>
+                          <option>Coupe</option>
+                          <option>Suv</option>
+                          <option>Truck</option>
+                          <option>Van</option>
+                          </select></li>
+                          <h5>Color</h5>
+                      <li><select class="new">
+                          <option>Select</option>
+                          <option>White</option>
+                          <option>Red</option>
+                          <option>Black</option>
+                          <option>Gold</option>
+                          <option>Blue</option>
+                          </select></li>
+                          </ul> 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">
+                          <input type="submit" value="Search">
+                          </a>
+                        </div>
+                          <div class="col-sm-12 col-md-12 col-lg-6">    
+            <label class="select-use"><h4>Used Car</h4></label></br><select class="used-car">
+                                <option>Select</option>
+                            <option>Audi</option>
+                            <option>Aston Martin</option>
+                            <option>Bentley</option>
+                            <option>Bugatti</option>
+                            <option>Chrysler</option>
+                            <option>Chevrolet</option>
+                            <option>Daihatsu</option>
+                            <option>Datsun</option>
+                            <option>Essex</option>
+                            <option>Ferrari</option>
+                            <option>Ford</option>
+                            <option>Isuzu</option>
+                            <option>Lexus</option>
+                          </select>
+                          <p>&nbsp;</p>
+                             <ul><h5>Model</h5>
+                      <li><select class="used">
+                          <option>Select</option>
+                          <option>2019</option>
+                          <option>2018</option>
+                          <option>2017</option>
+                          <option>2016</option>
+                          <option>2015</option>
+                          <option>2014</option>
+                          </select></li>
+                          <h5>Body Type</h5>
+                      <li><select class="used">
+                         <option>Select</option>
+                          <option>Sedon</option>
+                          <option>Wagon</option>
+                          <option>Coupe</option>
+                          <option>Suv</option>
+                          <option>Truck</option>
+                          <option>Van</option>
+                          </select></li>
+                          <h5>Color</h5>
+                       <li><select class="used">
+                          <option>Select</option>
+                          <option>White</option>
+                          <option>Red</option>
+                          <option>Black</option>
+                          <option>Gold</option>
+                          <option>Blue</option>
+                          </select></li>
+                             </ul>
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">
+                         <input type="submit" value="Search">
+                         </a>
+                      </div>
+                   </div>
+                  </div>
+                </div>	      
+              </div>        
+          </div>
+        </div> 
+    <div id="vehicle"><p>&nbsp;</p></div>
+    <div id="vehicle"><p>&nbsp;</p></div>
+    <div id="vehicle"><p>&nbsp;</p></div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+</body>
+</html>

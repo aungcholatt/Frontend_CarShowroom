@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>SPEED-X Cars Sale</title>
+		<!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <link rel="icon" type="png/image" href="img/v1.png"/>
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+<body>
+    <div id="topbar">
+        <div class="logo">
+        <span><img src="img/v1.png">
+        </span>
+        <h1>SPEED-X</h1>
+        
+        <img src="img/sale.png" width="5px" height="5px">
+        <h3>Cars Sale
+        </h3>
+        <h6><a href="#" onClick="showDialog()" title="Click Button">Sign in</a></h6>
+        </div>
+
+        <div class="toggle">
+            <div class="line-one"></div>
+            <div class="line-two"></div>
+            <div class="line-three"></div>
+        </div>
+    </div>
+    <!-- Topbar end -->
+    <div id="menu_bar">
+        <ul class="nav">
+            <li><a href="Home.html">home</a></li>
+            <li><a href="About.html">about</a></li>
+            <li><a href="Service.html">service</a></li>
+            <li><a href="Showroom.html">showroom</a></li>
+            <li><a href="Vehicle.html">vehicles</a></li>
+            <li><a href="Contact.html">contact</a></li>
+        </ul>
+        <div class="fix"></div>
+    </div>
+    <!-- menu_bar end -->
+<!-- Dialog-box -->
+<div id="overlay" onClick="hideDialog()"></div>
+<div id="dialog">
+<h1>
+  <!-- Contact Me? -->
+  <span onClick="hideDialog()">&times;</span>
+</h1>
+<form>
+  <label for="psw">Email</label>
+  </br>
+  <input type="text">
+  </br>
+  <label for="psw">Password</label>
+  </br>
+  <input type="text">
+  </br>
+  <input type="submit" value="LOGIN">
+</form>
+</div>
+<!-- End dialogbox -->
+    <div id="banner">
+        <img src="img/home.jpeg" alt="banner_image"/>
+        <div class="banner-caption">
+          <div class="first-text">
+             <h5><a>Brand New Models Available</a></h5>
+          </div>
+        </div>
+</div>
+    <!--- banner end -->
+    <!-- Our factory -->
+<div id="factory">
+    <div class="container">
+      <div class="row">
+     <div class="col-sm-12 col-md-12 col-lg-6">
+    <div class="image">
+       <h2>Our Factory</h2>
+        <img src="img/factory3.jpeg" width=auto height="200px">
+     </div>
+   </div>
+     <div class="col-sm-12 col-md-12 col-lg-6">
+    <div class="factory-text">
+      <ul>
+          <li><a href="">Unsure where to start? Check out</a></li>
+          <!-- <p>&nbsp;</p> -->
+          <p>Unsure where to start? Check out some of the most sought-after models on Speed-X! Unsure where to start? Check out some of the most sought-after models on Speed-X! Unsure where to start? Check out some of the most sought-after models on Speed-X!Unsure where to start? Check out some of the most sought-after models on Speed-X!Unsure where to start? Check out some of the most sought-after models on Speed-X!</p>
+      </ul>
+     </div>
+   </div>
+ </div>
+</div>
+&nbsp;
+  <!-- Popular Searches -->
+<section id="popular-searches">
+<h2>Popular Searches&nbsp;&nbsp;<!-- <a href="#"><img src="img/search.png"></a> --></h2>
+<p>Unsure where to start? Check out some of the most sought-after models on Speed-X!</p>
+<div class="section-group">
+  <div class="container">
+   <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="image-button">
+          <div class="img-wrapper">
+                <img src="img/popular-02.jpg" width="350px">
+                <div class="img-overlay">
+                    <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+                <div class="caption">
+                    <a href="Showroom.html" target="_blank">Subaru Outback</a>
+                </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="image-button">
+         <div class="img-wrapper">
+                <img src="img/popular-01.jpg" width="350px">
+                <div class="img-overlay">
+                    <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+                <div class="caption">
+                    <a href="Showroom.html" target="_blank">Ford Mustang</a>
+                </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="image-button">
+          <div class="img-wrapper">
+                <img src="img/popular-03.jpg" width="350px">
+                <div class="img-overlay">
+                    <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+                <div class="caption">
+                    <a href="Showroom.html" target="_blank">Toyota Tacoma</a>
+                </div>
+        </div>
+    </div>
+   </div>
+  </div>
+</div>
+</section>
+<!-- Popular Searches End -->
+<div id="search-box">
+   <h2>Advanced Search&nbsp;&nbsp;<!-- <a href="#"><img src="img/search.png"></a> --></h2>
+    <p>Check out some of the most sought-after models on Speed-X!</p>
+     <div class="container">
+        <div class="row">
+          <div class="table-box">
+            <div class="container">
+              <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+      <label class="select-new"><h4>New Car</h4></label></br><select class="new-car">
+                    <option>Select</option>
+                    <option>Audi</option>
+                    <option>Aston Martin</option>
+                    <option>Bentley</option>
+                    <option>Bugatti</option>
+                    <option>Chrysler</option>
+                    <option>Chevrolet</option>
+                    <option>Daihatsu</option>
+                    <option>Datsun</option>
+                    <option>Essex</option>
+                    <option>Ferrari</option>
+                    <option>Ford</option>
+                    <option>Isuzu</option>
+                    <option>Lexus</option>
+                  </select>
+                  <p>&nbsp;</p>
+                  <ul><h5>Model</h5>
+               <li><select class="new">
+                  <option>Select</option>
+                  <option>2019</option>
+                  <option>2018</option>
+                  <option>2017</option>
+                  <option>2016</option>
+                  <option>2015</option>
+                  <option>2014</option>
+                  </select></li>
+                  <h5>Body Type</h5>
+              <li><select class="new">
+                  <option>Select</option>
+                  <option>Sedon</option>
+                  <option>Wagon</option>
+                  <option>Coupe</option>
+                  <option>Suv</option>
+                  <option>Truck</option>
+                  <option>Van</option>
+                  </select></li>
+                  <h5>Color</h5>
+              <li><select class="new">
+                  <option>Select</option>
+                  <option>White</option>
+                  <option>Red</option>
+                  <option>Black</option>
+                  <option>Gold</option>
+                  <option>Blue</option>
+                  </select></li>
+                  </ul> 
+                  <a href="Showroom.html">
+                  <input type="submit" value="Search">
+                  </a>
+                </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6">    
+    <label class="select-use"><h4>Used Car</h4></label></br><select class="used-car">
+                        <option>Select</option>
+                    <option>Audi</option>
+                    <option>Aston Martin</option>
+                    <option>Bentley</option>
+                    <option>Bugatti</option>
+                    <option>Chrysler</option>
+                    <option>Chevrolet</option>
+                    <option>Daihatsu</option>
+                    <option>Datsun</option>
+                    <option>Essex</option>
+                    <option>Ferrari</option>
+                    <option>Ford</option>
+                    <option>Isuzu</option>
+                    <option>Lexus</option>
+                  </select>
+                  <p>&nbsp;</p>
+                     <ul><h5>Model</h5>
+              <li><select class="used">
+                  <option>Select</option>
+                  <option>2019</option>
+                  <option>2018</option>
+                  <option>2017</option>
+                  <option>2016</option>
+                  <option>2015</option>
+                  <option>2014</option>
+                  </select></li>
+                  <h5>Body Type</h5>
+              <li><select class="used">
+                 <option>Select</option>
+                  <option>Sedon</option>
+                  <option>Wagon</option>
+                  <option>Coupe</option>
+                  <option>Suv</option>
+                  <option>Truck</option>
+                  <option>Van</option>
+                  </select></li>
+                  <h5>Color</h5>
+               <li><select class="used">
+                  <option>Select</option>
+                  <option>White</option>
+                  <option>Red</option>
+                  <option>Black</option>
+                  <option>Gold</option>
+                  <option>Blue</option>
+                  </select></li>
+                     </ul>
+                 <a href="Showroom.html">
+                 <input type="submit" value="Search">
+                 </a>
+              </div>
+           </div>
+          </div>
+        </div>	      
+      </div>        
+  </div>
+</div> 
+<!-- Search-box End      -->
+<div id="showroom">
+<h2>Car ShowRoom</h2>
+  <div class="container">
+    <div class="row">
+      <div class="showroom-box">
+      <div class="container">
+        <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="image-button">
+          <div class="img-wrapper">
+                <img src="img/popular-04.png" width="350px">
+                <div class="img-overlay">
+                  <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+           <div class="showroom-btn">
+            <a href="About.html">Read more</a>
+          </div>
+       </div>
+       </div>
+       <div class="col-sm-12 col-md-12 col-lg-4">
+           <div class="image-button">
+          <div class="img-wrapper">
+           <img src="img/popular-02.jpg" width="350px">
+           <div class="img-overlay">
+              <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+        <div class="showroom-btn">
+            <a href="About.html">Read more</a>
+          </div>
+       </div>
+       </div>
+       <div class="col-sm-12 col-md-12 col-lg-4">
+       <div class="image-button">
+          <div class="img-wrapper">
+            <img src="img/popular-01.jpg" width="350px">
+            <div class="img-overlay">
+              <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+        <div class="showroom-btn">
+            <a href="About.html">Read more</a>
+          </div>
+       </div>
+    </div>
+      <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-4">
+      <div class="image-button">
+          <div class="img-wrapper">
+         <img src="img/popular-02.jpg" width="350px">
+          <div class="img-overlay">
+         <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+        <div class="showroom-btn">
+            <a href="About.html">Read more</a>
+          </div>
+       </div>
+      </div> 
+       <div class="col-sm-12 col-md-12 col-lg-4">
+       <div class="image-button">
+          <div class="img-wrapper">
+           <img src="img/popular-04.png" width="350px">
+           <div class="img-overlay">
+         <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+        <div class="showroom-btn">
+            <a href="About.html">Read more</a>
+          </div>
+       </div>
+      </div> 
+       <div class="col-sm-12 col-md-12 col-lg-4">
+       <div class="image-button">
+          <div class="img-wrapper">
+            <img src="img/popular-02.jpg" width="350px">
+            <div class="img-overlay">
+         <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+        <div class="showroom-btn">
+            <a href="About.html">Read more</a>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4">
+       <div class="image-button">
+          <div class="img-wrapper">
+           <img src="img/popular-01.jpg" width="350px">
+           <div class="img-overlay">
+         <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+        <div class="showroom-btn">
+            <a href="About.html">Read more</a>
+          </div>
+       </div>
+      </div> 
+      <div class="col-sm-12 col-md-12 col-lg-4">
+       <div class="image-button">
+          <div class="img-wrapper">
+            <img src="img/popular-02.jpg" width="350px">
+            <div class="img-overlay">
+         <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+        <div class="showroom-btn">
+            <a href="About.html">Read more</a>
+            </div>
+            </div>
+          </div>
+           <div class="col-sm-12 col-md-12 col-lg-4">
+       <div class="image-button">
+          <div class="img-wrapper">
+           <img src="img/popular-04.png" width="350px">
+           <div class="img-overlay">
+         <h3><a href="https://www.speed-x.com/" target="_blank">SPEED-X</a></h3>
+                </div>
+                </div>
+        <div class="showroom-btn">
+            <a href="About.html">Read more</a>
+          </div>
+       </div>
+      </div> 
+       </div>
+    </div>
+  </div>  
+</div>
+</div>
+</div> 
+<!-- Showroom end  -->
+<div id="assembly">
+<h2>Assembly</h2>
+  <div class="container">
+    <div class="row">
+      <div class="assembly-box">
+      <div class="container">
+        <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <img src="img/assembly-1.jpeg" width="100%">
+                  </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+            <img src="img/assembly-2.jpeg" width="100%"> 
+                  </div>
+                   <!-- <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="row">
+                    <img src="img/assembly-3.jpeg" width="550px">
+                   </div>
+                   </div> -->
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="row">
+                    <ul>
+                    <li><h3><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unsure where to start? Check out</a></h3></li>
+                    </ul>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim. 
+                     </p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim. 
+                     </p>
+                    <!--  <ul>
+                      <li><h3><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unsure where to start? Check out</a></h3></li>
+                    </ul> -->
+                   </div>
+          <!--   <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="row">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+             <ul>
+            <li><h3><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unsure where to start? Check out</a></h3></li></ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              </div> -->
+                 </div> 
+              </div>
+          </div>
+    </div>
+</div>
+<!-- Assembly End -->
+<div id="service">
+<h2>Our Service</h2>
+  <div class="container">
+    <div class="row">
+      <div class="service-box">
+      <div class="container">
+        <div class="row">
+        <section class="blog">
+<h4>Get the good service center from Enterprice Speed-X!</h4>
+<div class="section group">
+ <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="image-button">
+            <a href="https://www.speed-x.com/2016/06/22/every-car-has-a-story/" target="_blank">
+               <img src="img/service-1.jpeg" width="100%" height="200px"> 
+                <div class="caption">
+                    <span>Checking with computer system</span>
+                </div>
+            </a>
+        </div>
+    </div>
+      <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="image-button">
+            <a href="https://www.speed-x.com/2016/05/31/get-deal-ford-mustang-convertible/" target="_blank">
+                <img src="img/service-2.jpeg" width="100%" height="200px">
+                <div class="caption">
+                    <span>The best service ready for repair</span>
+                </div>
+            </a>
+        </div>
+    </div>
+       <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="image-button">
+            <a href="https://www.speed-x.com/2016/05/20/how-to-know-when-someone-is-desperate-to-sell-their-car/" target="_blank">
+               <img src="img/service-3.jpeg" width="100%" height="200px">
+                <div class="caption">
+                    <span>So appreciate to you</span>
+                   </div>
+               </a>
+             </div>
+           </div>
+        </div>
+        </div>
+          <h6><a href="https://www.speed-x.com/" class="view-more" target="_blank"> View more posts</a></h6>
+       </section>
+     </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+<!-- End Contant All	 -->
+<div id="blue-space">
+<p>&nbsp;</p>
+</div>
+<div id="white-text">
+<h3>CONTACT&nbsp; US</h3>
+
+</div>
+
+<!-- End white-text -->
+<div id="footer">
+<div class="footer-1">
+ <div class="container">
+  <div class="row">
+  <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="contact-info">
+      <h4 class="title">All Vehicles</h4>
+      <ul class="nav navbar-nav">
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Cars</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.comv">
+                      <span class="text">SUVs &amp; Crossovers</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Trucks &amp; Vans</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Hybrids &amp; EVs</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Future Vehicles</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Certified Pre-Owned</span>
+                      
+                  </a>
+              </li>
+          
+              <li class="hide-on-mobile">
+                  <a href="http://www.speed-x.ford.com">
+                      <span class="text">Fleet Vehicles</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="http://www.speed-x.com">
+                      <span class="text">All Vehicles</span>
+                  </a>
+              </li>
+          </ul>
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="useful-link">
+      <h4 class="title">Shopping Tools</h4>
+         <!-- <ul> -->
+            <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Build &amp; Price</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Search Inventory</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com/#$iqq?gnav=footer-shop" target="_self">
+                      <span class="text">Get a Quote</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Pricing &amp; Incentives</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="http://www.speed-x.com">
+                      <span class="text">Trade-In Value</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Get a Brochure</span>
+                      
+                  </a>
+              </li>
+          
+              <li class="hide-on-mobile">
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Compare Vehicles</span>
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Get Updates</span>
+                  </a>
+              </li> 
+        <!-- </ul> -->
+    </div>
+  </div>
+
+  <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="address">
+      <h4 class="title">Finance</h4>
+        <ul class="nav navbar-nav">
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Why Ford Credit</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Finance Options</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Payment Calculator</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="http://www.speed-x.com">
+                      <span class="text">Credit Education</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Customer Support</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Apply Online</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://credit.speed-x.com">
+                      <span class="text">My Account</span>
+                      
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Investor Center</span>
+                      
+                  </a>
+              </li>
+          </ul>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="connect">
+      <h4 class="title">Address</h4>
+       <ul class="nav navbar-nav">
+              <li>
+                  <a href="http://speed-x.com">
+                      <span class="text">No(1)</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="http://speed-x.com">
+                      <span class="text">First Floor</span>
+                      
+                  </a>
+              </li>
+              <li>
+                  <a href="http://speed-x.com">
+                      <span class="text">Room (1)/(B) </span>
+                      
+                  </a>
+              </li>
+              <li>
+                  <a href="http://www.speed-x.com">
+                      <span class="text">Hleden Rd</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="http://www.speed-x.com">
+                      <span class="text">Kamayut</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="https://www.speed-x.com">
+                      <span class="text">Yangon.</span>
+                      
+                  </a>
+              </li>
+          
+              <li>
+                  <a href="http://www.speed-x.com">
+                      <span class="text">+95 942 166 444</span>
+                      
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.speed-x.com/">
+                      <span class="text">email@youraddress.com</span>
+                      
+                  </a>
+              </li>
+          </ul>
+        </div>
+     </div>
+
+    </div>
+  </div>  
+ </div>
+</div>
+</div>
+<div id="space-blue">
+&nbsp;
+</div>
+<div id="space">
+<section class="right social"> <!-- Social Icons Start -->
+<a href="http://plus.google.co.uk"><img class="icon" src="img/icons/google.png" width="32" height="32" alt="google"></a>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://youtube.com"><img class="icon" src="img/icons/youtube.png" width="32" height="32" alt="youtube"></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://facebook.com"><img class="icon" src="img/icons/facebook.png" width="32" height="32" alt="facebook"></a>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://twitter.com"><img class="icon" src="img/icons/twitter.png" width="32" height="32" alt="twitter"></a>
+    </section> 
+</div>
+<div id="footer-end">
+<li>
+<a class="text" href="About.html">
+© 2020 Speed-X Motor Company
+            </a>
+</li>
+<li>
+<a class="text" href="About.html">
+Contact Us
+            </a>
+</li>
+<li>
+<a class="text" href="About.html">
+Terms &amp; Conditions
+            </a>
+</li>
+<li>
+<a class="text" href="About.html">
+Privacy
+            </a>
+</li>
+<li>
+<a class="text" href="About.html">
+AdChoices
+            </a>
+</li>
+</div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
